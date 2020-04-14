@@ -56,6 +56,11 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#awards">Cursos &amp; Treinamentos</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contactform">Contato</a>
+                </li>
+
+
             </ul>
         </div>
     </nav>
@@ -324,6 +329,13 @@
 
                     <li>
                         <i class="fa-li fa fa-trophy text-warning"></i>
+                        <a href="certificados\UC-9dd42dc5-2e5c-47d5-9562-642d0c7908ae.pdf" target"__blank"
+                            download>Python para
+                            Data Science e Machine Learning - Udemy - 2020</a>
+                    </li>
+
+                    <li>
+                        <i class="fa-li fa fa-trophy text-warning"></i>
                         Desenvolvimento móvel Google Android com Kotlin - Caelum - 2019
                     </li>
 
@@ -512,19 +524,22 @@
                 <!-- modify this form HTML and place wherever you want your form -->
 
                 <form action="https://formspree.io/mpzjznpq" method="POST">
-                    <label>
-                        E-mail:
-                        <input type="text" name="_replyto">
-                    </label>
-                    <label>
-                        Mensagem:
-                        <textarea name="message"></textarea>
-                    </label>
+                    <div class="form-group">
+                        <label>E-mail:</label>
+                        <input class="form-control" type="text" name="_replyto">
 
+                    </div>
+                    <div class="form-group">
+                        <label>Mensagem:</label>
+                        <textarea class="form-control" name="message" rows="5"></textarea>
+
+                    </div>
                     <!-- your other form fields go here -->
 
-                    <button type="submit">Enviar</button>
+                    <button class="btn btn-primary btn-block" type="submit">Enviar</button>
                 </form>
+
+
             </div>
         </section>
 

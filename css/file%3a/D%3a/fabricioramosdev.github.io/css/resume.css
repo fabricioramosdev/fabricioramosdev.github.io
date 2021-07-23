@@ -145,7 +145,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 20vh;
+    /* min-height: 100vh; */
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -160,7 +160,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #053531  !important;
+  background-color: #009688 !important;
 }
 
 .text-primary {
@@ -168,9 +168,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color: #000000;
+  color:#000000 !important;
 }
 
 a:hover, a:focus, a:active {
-  color:#009688;
+  color: #4caf50 !important;
 }
